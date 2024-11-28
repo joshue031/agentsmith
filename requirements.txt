@@ -1,0 +1,11 @@
+autogen-core  # Core library for agents and orchestrators
+autogen-magentic-one  # Includes tools like FileManager, Orchestrator
+autogen-ext[openai]  # Includes support for OpenAI-compatible models (e.g., Ollama)
+
+openai  # For OpenAIChatCompletionClient
+tiktoken  # Tokenizer library (used by autogen)
+requests  # For HTTP requests if needed by auxiliary tools
+docker  # For DockerCommandLineCodeExecutor
+
+# Development and debugging tools
+aioconsole  # For asyncio-based input/output in the console
